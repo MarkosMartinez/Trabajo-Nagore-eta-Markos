@@ -1,0 +1,32 @@
+body{
+width: 1900px;
+}
+
+#cabecera{
+    background-image: url(/assets/logoPajaro.jpg);
+    background-repeat: no-repeat;
+    padding: 50px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  
+
+
+}
+#menu{
+
+margin-left: 58.45%;
+
+
+}
+
+a{
+    margin-right: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
