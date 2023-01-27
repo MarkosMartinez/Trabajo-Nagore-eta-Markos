@@ -25,8 +25,33 @@ a{
     margin-right: 25px;
     background-color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius:   10px;
     text-decoration: none;
     color: black;
+
+}
+
+#idioma{
+display: flex;
+margin-left: 25px;
+position: absolute;
+top: 10px;
+right: 150px;
+
+}
+
+#euskera{
+    width: 40px;
+    height: 20px;
+  
+}
+
+#espana{
+    width: 40px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#JoseLuis{
     
 }
