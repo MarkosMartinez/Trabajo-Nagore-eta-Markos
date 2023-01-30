@@ -1,13 +1,16 @@
 body{
-/*width: 1900px;*/
-}
+width: 1900px;
+background-image: url(/assets/logo.jpg);
+background-size: 80px;
 
+}
 #cabecera{
     background-image: url(/assets/logoPajaro.jpg);
     background-repeat: no-repeat;
+    background-color: white;
     padding: 50px;
     position: absolute;
-    width: 100%;
+    width: 94%;
     left: 0;
     top: 0;
   
@@ -25,6 +28,13 @@ margin-left: 55%;
     border-radius:   10px;
     text-decoration: none;
     color: black;
+    transition: transform .2s;
+
+
+}
+
+.menu-arriba:hover{
+    background-color: rgb(100, 100, 100);
 
 }
 
@@ -57,6 +67,7 @@ right: 150px;
     border-radius: 15px;
     height: 550px;
     width: 350px;
+    background-color: aliceblue;
 }
 
 #menuIzq:hover{
@@ -72,8 +83,21 @@ right: 150px;
     border-radius: 15px;
     height: 550px;
     width: 350px;
+    background-color: aliceblue;
+}
+#menuMedi{
+    transition: transform .2s;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    width: 1060px;
+    height: 550px;
 }
 
 #menuDer:hover{
     transform: scale(1.1);
 }
+
