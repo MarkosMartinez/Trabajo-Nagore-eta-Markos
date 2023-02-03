@@ -1,6 +1,6 @@
 body{
 width: 1900px;
-background-image: url(/assets/logo.jpg);
+height: 3000px;
 background-size: 80px;
 
 }
@@ -9,13 +9,11 @@ background-size: 80px;
     background-repeat: no-repeat;
     background-color: white;
     padding: 50px;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     width: 94%;
     left: 0;
     top: 0;
-  
-
-
 }
 #menu-cabecera{
 margin-left: 55%;
@@ -29,6 +27,7 @@ margin-left: 55%;
     text-decoration: none;
     color: black;
     transition: transform .2s;
+    
 
 
 }
@@ -74,30 +73,81 @@ right: 150px;
     transform: scale(1.1);
 }
 
-#menuDer{
+/*Twitter*/
+#menuTweeter{
     transition: transform .2s;
     position: absolute;
-    right: 25px;
+    left: -352px; /*-300*/
     top: 200px;
     border: 1px solid #000;
     border-radius: 15px;
     height: 550px;
     width: 350px;
     background-color: aliceblue;
+    transition: 0.3s;
 }
+#menuTweeter>img{
+    transition: 0.3s;
+    width: 50px;
+    position: absolute;
+    right: -40px;
+}
+
+#menuTweeter:hover{
+    transition: 0.3s;
+    left: 0.5px;
+}
+
+
+/*Instagram*/
+
+#menuTweeter{
+    transition: transform .2s;
+    position: absolute;
+    left: -352px; /*-300*/
+    top: 200px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 550px;
+    width: 350px;
+    background-color: aliceblue;
+    transition: 0.3s;
+}
+#menuTweeter>img{
+    transition: 0.3s;
+    width: 50px;
+    position: absolute;
+    right: -40px;
+}
+
+#menuTweeter:hover{
+    transition: 0.3s;
+    left: 0.5px;
+}
+
+
+
+
+
+
+
 #menuMedi{
     transition: transform .2s;
     background-color: aliceblue;
     border: 1px solid #000;
     border-radius: 15px;
     position: absolute;
-    top: 200px;
-    left: 410px;
-    width: 1060px;
-    height: 550px;
+    top: 150px;
+    left: 200px;
+    width: 1500px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
 }
 
 #menuDer:hover{
     transform: scale(1.1);
 }
+
+
 
