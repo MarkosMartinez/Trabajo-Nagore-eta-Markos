@@ -104,12 +104,12 @@ right: 150px;
 #menuInstagram{
     transition: transform .2s;
     position: absolute;
-    left: -352px; /*-300*/
+    left: -260px;
     top: 280px;
     border: 1px solid #000;
     border-radius: 15px;
-    height: 550px;
-    width: 350px;
+    height: 435px;
+    width: 255px;
     background-color: aliceblue;
     transition: 0.3s;
 }
@@ -117,7 +117,7 @@ right: 150px;
     transition: 0.3s;
     width: 50px;
     position: absolute;
-    right: -40px;
+    right: -45px;
 }
 
 #menuInstagram:hover{
