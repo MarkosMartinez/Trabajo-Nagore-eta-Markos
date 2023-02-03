@@ -101,11 +101,11 @@ right: 150px;
 
 /*Instagram*/
 
-#menuTweeter{
+#menuInstagram{
     transition: transform .2s;
     position: absolute;
     left: -352px; /*-300*/
-    top: 200px;
+    top: 280px;
     border: 1px solid #000;
     border-radius: 15px;
     height: 550px;
@@ -113,14 +113,14 @@ right: 150px;
     background-color: aliceblue;
     transition: 0.3s;
 }
-#menuTweeter>img{
+#menuInstagram>img{
     transition: 0.3s;
     width: 50px;
     position: absolute;
     right: -40px;
 }
 
-#menuTweeter:hover{
+#menuInstagram:hover{
     transition: 0.3s;
     left: 0.5px;
 }
