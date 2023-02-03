@@ -151,3 +151,15 @@ right: 150px;
 
 
 
+
+#estudiar{
+    width: 800px;
+    display: flex;
+}
+#ciclos{
+   width: 400px;
+    
+}
+#formacion{
+    width: 400px;
+}
