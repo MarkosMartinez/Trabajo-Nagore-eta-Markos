@@ -2,6 +2,8 @@ body{
 width: 1900px;
 height: 3000px;
 background-size: 80px;
+background-color: rgba(215, 221, 25, 0.247);
+
 
 }
 #cabecera{
@@ -134,7 +136,7 @@ right: 150px;
 
 #menuMedi{
     transition: transform .2s;
-    background-color: aliceblue;
+    background-color: white;
     border: 1px solid #000;
     border-radius: 15px;
     position: absolute;
@@ -166,6 +168,7 @@ right: 150px;
     border: 1px black solid;
     border-radius: 15px;
     padding: 5px;
+    background-color: white;
 
 }
 #formacion{
@@ -174,9 +177,15 @@ right: 150px;
     margin-left: 5px;
     width: 400px;
     border: 1px black solid;
+    background-color: white;
+    justify-content: left;
 
 }
 
+#ciclos:hover,#formacion:hover{
+    border:2px solid black;
+    box-shadow: 1px 2px 3px ;
+}
 
 #imagenLogo{
     background-image: url(/assets/logo.png);
@@ -187,4 +196,11 @@ right: 150px;
     position: relative;
     top: -28%;
     opacity: 0.7;
+}
+
+#lanbide{
+    background-image: url(/assets/Lanbide.jpg);
+    height: 200px;
+    background-repeat:no-repeat;
+    margin: 80%;
 }
