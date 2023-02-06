@@ -213,6 +213,15 @@ right: 150px;
     left: 50px;
 }
 
+#tramites{
+    background-image: url(/assets/Tramites.jpg);
+    height: 200px;
+    background-repeat:no-repeat;
+    position: relative;
+    top: -450px;
+    left:400px;
+}
+
 #logoPlaia{
    position: absolute;
    top: 30px;
