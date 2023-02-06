@@ -10,15 +10,21 @@ background-color: rgba(215, 221, 25, 0.247);
     background-image: url(/assets/logoPajaro.jpg);
     background-repeat: no-repeat;
     background-color: white;
-    padding: 50px;
+    padding: 30px;
     position: fixed;
     z-index: 100;
-    width: 94%;
+    width: 100%;
     left: 0;
     top: 0;
+    display: inline-block;
 }
 #menu-cabecera{
 margin-left: 55%;
+}
+
+
+#menuHerr>a>img{
+    width: 50px;
 }
 
 .menu-arriba {
