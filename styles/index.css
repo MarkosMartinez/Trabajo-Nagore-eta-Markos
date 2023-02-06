@@ -23,8 +23,8 @@ margin-left: 55%;
 }
 
 
-#menuHerr>a>img{
-    width: 50px;
+#menuHerr{
+    position: relative;
 }
 
 .menu-arriba {
@@ -208,5 +208,13 @@ right: 150px;
     background-image: url(/assets/Lanbide.jpg);
     height: 200px;
     background-repeat:no-repeat;
-    margin: 80%;
+    position: relative;
+    top: -270px;
+    left: 50px;
+}
+
+#logoPlaia{
+   position: absolute;
+   top: 30px;
+   left: 400px;
 }
