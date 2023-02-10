@@ -32,15 +32,20 @@ ul li{
     list-style: none;
 }
 
+
 .nav li a{
-text-decoration: none;
 background-color: white;
+text-decoration: none;
 color: black;
 padding:10px 15px;
 display: block;
+border-radius: solid black 1px;
+
 
 }
 
+
+    
 .nav> li{
     float: left;
 }
@@ -68,11 +73,17 @@ display: block;
 .menu-arriba:hover{
     background-color: rgb(100, 100, 100);
 
-
-
+}
+.nav li ul a:hover{
+    background-color: rgb(100, 100, 100);
     
 }
 
+
+
+
+
+/* hasta aqui es el menu*/
 
 
 #idioma{
