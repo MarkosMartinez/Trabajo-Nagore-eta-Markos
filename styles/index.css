@@ -14,11 +14,13 @@ background-color: rgba(215, 221, 25, 0.247);
     position: fixed;
     z-index: 100;
     width: 100%;
+    height: 80px;
     left: 0;
     top: 0;
     display: inline-block;
 }
 #menu-cabecera{
+margin-top: 1%;
 margin-left: 55%;
 }
 
@@ -65,17 +67,7 @@ right: 150px;
     height: 20px;
 }
 
-#menuIzq{
-    transition: transform .2s;
-    position: absolute;
-    left: 25px;
-    top: 200px;
-    border: 1px solid #000;
-    border-radius: 15px;
-    height: 550px;
-    width: 350px;
-    background-color: aliceblue;
-}
+
 
 #menuIzq:hover{
     transform: scale(1.1);
@@ -121,6 +113,7 @@ right: 150px;
     width: 255px;
     background-color: aliceblue;
     transition: 0.3s;
+    z-index: 97;
 }
 #menuInstagram>img{
     transition: 0.3s;
@@ -130,6 +123,41 @@ right: 150px;
 }
 
 #menuInstagram:hover{
+    transition: 0.3s;
+    left: 0.5px;
+}
+
+#menuContacto{
+    transition: transform .2s;
+    position: fixed;
+    left: -260px;
+    top: 360px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 435px;
+    width: 255px;
+    background-color: aliceblue;
+    transition: 0.3s;
+    z-index: 96;
+}
+#menuContacto>img{
+    transition: 0.3s;
+    width: 50px;
+    position: absolute;
+    right: -45px;
+}
+#menuContacto> th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#menuContacto > table{
+    position: relative;
+    left: 10px;
+    border-spacing: 2px;
+}
+
+#menuContacto:hover{
     transition: 0.3s;
     left: 0.5px;
 }
@@ -155,29 +183,51 @@ right: 150px;
    
 }
 
+
+
 #menuDer:hover{
     transform: scale(1.1);
 }
 
+/* esta parte es de estudiar en plaiaundi*/
 
 #estudiar2{
     margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 #estudiar{
     width: 800px;
     display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#ciclos{
-   width: 400px;
+
+#ciclos a, #formacion a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    opacity: 0;
+}
+#formacion p{
+    opacity: 0;
+}
+
+#ciclos:hover ul{
+    opacity: 1;
+    width: 400px;
     border: 1px black solid;
     border-radius: 15px;
     padding: 5px;
     background-color: white;
-
+    text-decoration: none;
+    list-style:none;
+    transition: .5s;
 }
-#formacion{
+#formacion:hover p{
+    opacity: 1;
     border-radius: 15px;
     padding: 5px;
     margin-left: 5px;
@@ -185,14 +235,24 @@ right: 150px;
     border: 1px black solid;
     background-color: white;
     justify-content: left;
+    transition: .5s;
 
 }
 
-#ciclos:hover,#formacion:hover{
-    border:2px solid black;
-    box-shadow: 1px 2px 3px ;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* hasta aqui "que estudiar"*/
 #imagenLogo{
     background-image: url(/assets/logo.png);
     height: 300px;
@@ -226,4 +286,12 @@ right: 150px;
    position: absolute;
    top: 30px;
    left: 400px;
+}
+
+#menuHerr{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin-top: -25px;
+
 }
