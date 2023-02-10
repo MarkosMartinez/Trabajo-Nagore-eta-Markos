@@ -18,34 +18,62 @@ background-color: rgba(215, 221, 25, 0.247);
     left: 0;
     top: 0;
     display: inline-block;
+   
 }
+
+/* para el menu cabecera*/
 #menu-cabecera{
 margin-top: 1%;
 margin-left: 55%;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav li a{
+text-decoration: none;
+background-color: white;
+color: black;
+padding:10px 15px;
+display: block;
+
+}
+
+.nav> li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover >ul{
+display: block;
 }
 
 
-#menuHerr{
-    position: relative;
-}
-
-.menu-arriba {
+/*.menu-arriba{
     margin-right: 2%;
-    background-color: white;
     padding: 10px;
     border-radius:   10px;
     text-decoration: none;
-    color: black;
     transition: transform .2s;
-    
 
-
-}
+}*/
 
 .menu-arriba:hover{
     background-color: rgb(100, 100, 100);
 
+
+
+    
 }
+
+
 
 #idioma{
 display: flex;
@@ -190,7 +218,7 @@ right: 150px;
 }
 
 /* esta parte es de estudiar en plaiaundi*/
-
+/*
 #estudiar2{
     margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -208,12 +236,13 @@ right: 150px;
     text-decoration: none;
 }
 
-ul{
+/*ul{
     opacity: 0;
 }
 #formacion p{
     opacity: 0;
 }
+
 
 #ciclos:hover ul{
     opacity: 1;
@@ -244,7 +273,7 @@ ul{
 
 
 
-
+*/
 
 
 
