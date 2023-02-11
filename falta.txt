@@ -1,0 +1,6 @@
+1.- Reordenar TODO (borrando DIVs e imagenes q no se utilizen)
+2.- Poner mas informacion (y las fotos de lanbide y asi)
+3.- "Mejorar" menuMedi
+4.- Arreglar el width de la pagina para quitar el scroll lateral
+5.- Ponerle "Media Query" para que se pueda ver desde el movil bien.
+6.- Lo que no se me ocurre ahora pero que falta :)
