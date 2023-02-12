@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/menuizq.css">
+    <link rel="stylesheet" href="./styles/carruseldev.css">
     <link rel="shortcut icon" href="./assets/logo.png" />
+    
     <title>PLAIAUNDI IKASTETXEA</title>
 </head>
 <body>
@@ -95,34 +97,45 @@
 
         <div id="menuMedi">
            <div id="menuMediContenido">
-            <div id="estudiar2">
-                <h1>¿Qué puedo estudiar en Plaiaundi?</h1>
-
-                <div id="estudiar">
-            <div id="ciclos">
-
-            <a href="">Ciclos Formativos</a>
-           <ul>
-                <li>Informatica</li>
-                <li>Administracion y gestion</li>
-                <li>Sanitario</li>
-                <li>Comercio y transporte</li>
-                <li>Servicios socioculuturales </li>
-            </ul>
-            </div>
-            <div id="formacion">
-            <a href="">Formación a Desempleados y Trabajadores</a>
-                <p>En el centro, a través del Servicio Vasco de Empleo LANBIDE y los Fondos Sociales Europeos de la COMISIÓN EUROPEA ofertamos cursos para trabajadores y desempleados.
-
-                    La relación de cursos ofertados aparecerá en la portada de la web, se publicará en prensa, y se accederán desde aquí.</p>
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <h2>1</h2>
+                        <p>Contenido 1</p>
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <h2>2</h2>
+                        <p>Contenido 2</p>
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <h2>3</h2>
+                        <p>Contenido 3</p>
+                    </div>
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
                 </div>
             </div>
-        </div>
-        <div id="imagenLogo"></div>
-        
-        <div id="lanbide"><a href="https://plaiaundi.hezkuntza.net/es/hobetuzlanbide/" target="_blank"><img src="./assets/LanbideCompleto.png"></a></div>
-        <div id="tramites"><img src="./assets/Tramites.jpg"></div>
-        <div id="notasDeCorte"><a href="https://docs.google.com/spreadsheets/d/1QKqUgQWNVL7I-32_twydQG_g8MVP_Qah/edit#gid=224075705" target="_blank"><img src="./assets/NotasDeCorte.png"></a></div>
         </div>
         </div>
 
