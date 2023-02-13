@@ -1,6 +1,6 @@
 
 body{
-height: 3000px;
+height: auto;
 background-size: 80px;
 background-color: rgba(215, 221, 25, 0.247);
 
@@ -23,6 +23,8 @@ background-color: rgba(215, 221, 25, 0.247);
 #menu-cabecera{
 margin-top: 1%;
 margin-left: 55%;
+position: relative;
+top: -40px;
 
 }
 
@@ -57,16 +59,6 @@ border-radius: solid black 1px;
 .nav li:hover >ul{
 display: block;
 }
-
-
-/*.menu-arriba{
-    margin-right: 2%;
-    padding: 10px;
-    border-radius:   10px;
-    text-decoration: none;
-    transition: transform .2s;
-
-}*/
 
 .menu-arriba:hover{
     background-color: rgb(100, 100, 100);
@@ -138,42 +130,36 @@ right: 150px;
 
 
 
-#menuDer:hover{
-    transform: scale(1.1);
+/* esta parte es de estudiar en plaiaundi*/
+ 
+
+#tituloEstu{
+    text-align: center;
+    
 }
 
-#estudiar2{
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
-
-#estudiar2 > h1{
-    margin-left: 40px;
-}
-/* esta parte es de estudiar en plaiaundi
 
 #estudiar{
-    width: 800px;
-    display: flex;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
 }
+    
 
 #ciclos a, #formacion a{
     color: black;
     text-decoration: none;
 }
 
-/*ul{
-    opacity: 0;
-}
-#formacion p{
-    opacity: 0;
-}
 
 
-#ciclos:hover ul{
-    opacity: 1;
-    width: 400px;
+
+#ciclos ul{ 
+    
+    width: 200px;
     border: 1px black solid;
     border-radius: 15px;
     padding: 5px;
@@ -182,12 +168,11 @@ right: 150px;
     list-style:none;
     transition: .5s;
 }
-#formacion:hover p{
-    opacity: 1;
+#formacion p{
     border-radius: 15px;
     padding: 5px;
-    margin-left: 5px;
-    width: 400px;
+    margin-right:20px;
+    width: 300px;
     border: 1px black solid;
     background-color: white;
     justify-content: left;
@@ -195,8 +180,15 @@ right: 150px;
 
 }
 
-*/
+#formacion{
+margin-left: 20px;
+}
 
+#formacion p:hover, #ciclos ul:hover{
+
+    border: 2px black solid;
+    transform: scale(1.05);
+}
 
 
 /* hasta aqui "que estudiar"*/
@@ -207,6 +199,7 @@ right: 150px;
     background-size: 250px;
     margin-left: 83%;
     position: relative;
+    top: -325px;
     opacity: 0.7;
 }
 
@@ -237,10 +230,44 @@ right: 150px;
    left: 400px;
 }
 
+
+
+/*esta parte es para el menu herramientas*/
+
 #menuHerr{
 display: flex;
 align-items: center;
 justify-content: flex-start;
-margin-top: -25px;
 
 }
+
+#Moodle{
+    transition: .4s;
+}
+#Moodle:hover{
+    transform: scale(1.2);
+}
+
+
+#ikasgunea{
+    transition: .4s;
+}
+#ikasgunea:hover{
+    transform: scale(1.2);
+}
+
+#FP{
+    transition: .4s;
+}
+#FP:hover{
+    transform: scale(1.2);
+}
+
+#Lanbidea{
+    transition: .4s;
+}
+#Lanbidea:hover{
+    transform: scale(1.2);
+}
+
+/* menu herramientas hasta aqui ----*/
