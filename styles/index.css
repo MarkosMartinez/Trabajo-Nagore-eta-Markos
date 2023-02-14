@@ -1,6 +1,6 @@
 
 body{
-height: auto;
+height: 1100px;
 background-size: 80px;
 background-color: rgba(215, 221, 25, 0.247);
 
@@ -40,7 +40,6 @@ color: black;
 padding:10px 15px;
 display: block;
 border-radius: solid black 1px;
-
 
 }
 
@@ -83,7 +82,7 @@ display: flex;
 margin-left: 25px;
 position: absolute;
 top: 10px;
-right: 150px;
+right: 10%;
 
 }
 
@@ -160,7 +159,7 @@ right: 150px;
 #ciclos ul{ 
     
     width: 200px;
-    height: 150px;
+    height: 80%;
     border: 1px black solid;
     border-radius: 15px;
     padding: 5px;
@@ -171,10 +170,9 @@ right: 150px;
 }
 #formacion p{
     border-radius: 15px;
-    height: 150px;
+    height: 80%;
     width: 500px;
     padding: 5px;
-    margin-right:20px;
     border: 1px black solid;
     background-color: white;
     justify-content: left;
@@ -201,7 +199,7 @@ margin-left: 20px;
     background-size: 250px;
     margin-left: 83%;
     position: relative;
-    top: -325px;
+    top: -250px;
     opacity: 0.7;
 }
 
@@ -281,10 +279,9 @@ justify-content: flex-start;
 #linksInfo{
 
 border: solid 1px black;
-width: 500px;
-margin-left: 35%;
-margin-top: 50px;
-transition: 2.50s;
+margin: auto;
+width: 50%;
+transition: 1.50s;
 }
 
 #linksInfo a{
@@ -298,7 +295,7 @@ transition: 2.50s;
 
 
 #linksInfo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
@@ -307,83 +304,3 @@ transition: 2.50s;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* esto es para el media*/
-@media(width < 1720px){
-
-body{
-overflow-x: hidden;
-
-}
-#menu-cabecera{
-margin-top: 3%;
-position: relative;
-transition: .2s;
-left: -100px;
-transition: .2s;
-margin-left: 40%;
-}
-
-#menuMedi{
-    justify-content: flex-start;
-    background-position: center;
-}
-
-}
-
-
-@media(width < 850px){
-
-    body{
-    overflow-x: hidden;
-    
-    }
-    
-    #menu-cabecera{
-        margin-top: 3%;
-        position: relative;
-        transition: .2s;
-        left: -25px;
-        transition: .2s;
-        margin-left: 40%;
-        }
-
-
-    #estudiar{
-        display: block;
-        margin-left: 25%;
-    }
-    #tituloEstudiar{
-        margin-left: -50%;
-    }
-    #formacionTitulo{
-        margin-left: -50%;
-    }
-
-    #contenidoFormacion{
-        margin-left: -15%;
-    }
-
-    
-
-    #menu-cabecera{
-    margin-right: 100px;
-    }
-    
-    #menuMedi{
-        justify-content: flex-start;
-        background-position: center;
-    }
-    
-    }

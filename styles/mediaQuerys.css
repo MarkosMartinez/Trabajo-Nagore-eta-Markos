@@ -1,0 +1,106 @@
+@media(width < 1720px){
+
+    body{
+    overflow-x: hidden;
+    
+    }
+    #menu-cabecera{
+    margin-top: 3%;
+    position: relative;
+    transition: .2s;
+    left: -100px;
+    transition: .2s;
+    margin-left: 40%;
+    }
+    
+    #menuMedi{
+        justify-content: flex-start;
+        background-position: center;
+    }
+    
+    }
+    
+    
+    @media(width < 970px){
+    
+        body{
+        overflow-x: hidden;
+        height: 1200px;
+        }
+        
+        #menu-cabecera{
+            margin-top: 3%;
+            position: relative;
+            transition: .2s;
+            left: -25px;
+            transition: .2s;
+            margin-left: 40%;
+            }
+    
+    
+        #estudiar{
+            display: block;
+            margin-left: 25%;
+        }
+        #tituloEstudiar{
+            margin-left: -50%;
+        }
+        #formacionTitulo{
+            margin-left: -50%;
+        }
+    
+        #contenidoFormacion{
+            margin-left: -20%;
+        }
+    
+        
+    
+        #menu-cabecera{
+        margin-right: 100px;
+        }
+        
+        #menuMedi{
+            justify-content: flex-start;
+            background-position: center;
+            height: 1000px;
+        }
+        
+        }
+    
+        @media(width <= 810px){
+            #formacion p{
+                border-radius: 15px;
+                height: 80%;
+                width: 80%;
+                padding: 5px;
+                border: 1px black solid;
+                background-color: white;
+                justify-content: left;
+                transition: .5s;
+            
+            }
+
+        }
+
+        @media(width <= 740px){
+            body{
+                height: 1500px;
+            }
+
+            #menuMedi{
+                height: 1300px;
+            }
+
+        }
+
+        /*Modo Moviles*/
+        @media(width <= 394px){
+            body{
+                height: 1800px;
+            }
+
+            #menuMedi{
+                height: 1600px;
+            }
+
+        }

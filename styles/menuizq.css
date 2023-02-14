@@ -103,3 +103,77 @@ margin-left: 5px;
     transition: 0.3s;
     left: 0.5px;
 }
+
+@media(width < 970px){
+    #menuTweeter{
+        top: 150px;
+        left: 100%;
+
+    }
+    #menuTweeter>img{
+        right: 98%;
+        transform: scaleX(-1);
+    }
+    #menuTweeter:hover{
+        left: 63%
+    }
+
+    #menuInstagram{
+        left: 100%;
+        top: 230px;
+    }
+    #menuInstagram>img{
+        right: 98%;
+    }
+    #menuInstagram:hover{
+        left: 73%
+    }
+
+    #menuContacto{
+        left: 100%;
+        top: 310px;
+    }
+    #menuContacto>img{
+        right: 97%;
+    }
+    #menuContacto:hover{
+        left: 70%;
+    }
+}
+
+@media(width < 910px){
+
+    #menuTweeter:hover{
+        left: 60%
+    }
+    #menuInstagram:hover{
+        left: 70%
+    }
+    #menuContacto:hover{
+        left: 69.8%;
+    }
+}
+@media(width <= 750px){
+    #menuTweeter:hover{
+        left: 52%
+    }
+    #menuInstagram:hover{
+        left: 65%
+    }
+    #menuContacto:hover{
+        left: 65%;
+    }
+}
+
+/*Modo Moviles*/
+@media(width <= 400px){
+    #menuTweeter:hover{
+        left: 12%
+    }
+    #menuInstagram:hover{
+        left: 35.5%
+    }
+    #menuContacto:hover{
+        left: 35%;
+    }
+}

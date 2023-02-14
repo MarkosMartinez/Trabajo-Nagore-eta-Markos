@@ -1,10 +1,8 @@
 1.- Reordenar TODO (borrando DIVs e imagenes q no se utilizen)
 2.- Poner mas informacion (y las fotos de lanbide y asi). Hecho?
 3.- "Mejorar" menuMedi
-4.- Ponerle "Media Query" para que se pueda ver desde el movil bien.
-5.- Arreglar la animacion de estudiar (solo lo tiene 1)
-6.- MenuCabecera moverlo a la izquierda como los widgets y los widgets invertilos de lado.
-
+4.- MenuCabecera moverlo a la izquierda como los widgets y los widgets invertilos de lado.
+5.- Pixeles para moviles = 394px (en el mio)
 
 
 
