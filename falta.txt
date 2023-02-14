@@ -4,3 +4,12 @@
 4.- Ponerle "Media Query" para que se pueda ver desde el movil bien.
 5.- Arreglar la animacion de estudiar (solo lo tiene 1)
 6.- MenuCabecera moverlo a la izquierda como los widgets y los widgets invertilos de lado.
+
+
+
+
+ignora estudios
+
+     <div id="lanbide"><a href="https://plaiaundi.hezkuntza.net/es/hobetuzlanbide/" target="_blank"><img src="./assets/LanbideCompleto.png"></a></div>
+        <div id="tramites"><img src="./assets/Tramites.jpg"></div>
+        <div id="notasDeCorte"><a href="https://docs.google.com/spreadsheets/d/1QKqUgQWNVL7I-32_twydQG_g8MVP_Qah/edit#gid=224075705" target="_blank"><img src="./assets/NotasDeCorte.png"></a></div>
