@@ -5,11 +5,10 @@
     
     }
     #menu-cabecera{
-    margin-top: 3%;
+    margin-top: 2%;
     position: relative;
     transition: .2s;
     left: -100px;
-    transition: .2s;
     margin-left: 40%;
     }
     
@@ -22,21 +21,18 @@
     
     
     @media(width < 970px){
-    
         body{
         overflow-x: hidden;
         height: 1200px;
         }
-        
+
         #menu-cabecera{
-            margin-top: 3%;
+            margin-top: 2%;
             position: relative;
             transition: .2s;
-            left: -25px;
-            transition: .2s;
-            margin-left: 40%;
-            }
-    
+            left: -400px;
+            width: 100%;
+        }
     
         #estudiar{
             display: block;
