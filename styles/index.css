@@ -270,8 +270,17 @@ justify-content: flex-start;
     transform: scale(1.2);
 }
 
-/* menu herramientas hasta aqui ----*/
 
+/*fin de carrusel*/
+
+
+div.scroll_horizontal {
+	width: 400px;
+	overflow: auto;
+	border: 1px solid #666;
+	background-color: #ccc;
+	padding: 8px;
+}
 
 @media(width < 1720px){
 

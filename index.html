@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/menuizq.css">
+    <link rel="stylesheet" href="/styles/carrusel.css">
     <link rel="shortcut icon" href="./assets/logo.png" />
     <title>PLAIAUNDI IKASTETXEA</title>
 </head>
@@ -120,11 +121,54 @@
         
         <div id="imagenLogo"></div>
         
-        <div id="lanbide"><a href="https://plaiaundi.hezkuntza.net/es/hobetuzlanbide/" target="_blank"><img src="./assets/LanbideCompleto.png"></a></div>
-        <div id="tramites"><img src="./assets/Tramites.jpg"></div>
-        <div id="notasDeCorte"><a href="https://docs.google.com/spreadsheets/d/1QKqUgQWNVL7I-32_twydQG_g8MVP_Qah/edit#gid=224075705" target="_blank"><img src="./assets/NotasDeCorte.png"></a></div>
+   
+
+    <!--Intento de carrusel-->
+    <div class="carrousel">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta"></div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class=" fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class=" fa-chevron-right"> </i>
+                    </a>
+                </div>s
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta"></div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class=" fa-chevron-left">-</i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class=" fa-chevron-right">-</i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta"></div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class=" fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class=" fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-3">•</a>
+        </div>
+    </div>
 
 
+<!--FIn de carrusel-->
         </div><!--fin del div del menu medio-->
         </div>
 
@@ -149,6 +193,7 @@
         </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.4930723756233!2d-1.7996132845122064!3d43.345795779132914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5108574109200f%3A0x76e7a4caa007390f!2sIES%20Plaiaundi%20BHI!5e0!3m2!1ses!2ses!4v1676018045758!5m2!1ses!2ses" width="250" height="298" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
     
 </body>
 </html>
