@@ -274,6 +274,7 @@ justify-content: flex-start;
 border: solid 1px black;
 margin: auto;
 width: 50%;
+margin-top: 50px;
 transition: 1.50s;
 }
 
