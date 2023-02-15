@@ -5,7 +5,7 @@
     
     }
     #menu-cabecera{
-    margin-top: 2%;
+    margin-top: 1%;
     position: relative;
     transition: .2s;
     left: -100px;
@@ -90,6 +90,13 @@
             #menuMedi{
                 height: 1400px;
             }
+
+            #menu-cabecera{
+                width: 20px;
+                justify-content: right;
+                margin-left: 350px;
+            }
+
 
         }
 
