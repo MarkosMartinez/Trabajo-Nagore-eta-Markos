@@ -1,11 +1,16 @@
+.menuCarrousel{
+width: 50%;
+margin: auto;
+}
+
 .carrousel{
     width:20%;
-    margin-left: 42.5%;
-    margin-top: -300px;    
+    margin-left: 40%;
+    margin-top: -250px;    
 }
 
 .conteCarrousel{
-    width: 100%;
+    width: 400px;
     height: 200px;
     overflow: hidden;
 }
