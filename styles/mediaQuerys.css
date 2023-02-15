@@ -5,11 +5,11 @@
     
     }
     #menu-cabecera{
-    margin-top: 1%;
-    position: relative;
-    transition: .2s;
-    left: -100px;
-    margin-left: 40%;
+        margin-top: 2%;
+        position: relative;
+        transition: .2s;
+        left: -400px;
+        width: 100%;
     }
     
     #menuMedi{
@@ -53,7 +53,13 @@
             margin-left: -20%;
         }
     
-        
+        #ciclos{
+            margin-left: 5%;
+        }
+
+        #ciclos>ul{
+            margin-left: 5%;
+        }
     
         #menu-cabecera{
         margin-right: 100px;
@@ -80,6 +86,23 @@
             
             }
 
+            #contenidoFormacion{
+                margin-left: -50px;
+            }
+            .nav li p{
+                padding: 5px 7px;
+                font-size: smaller;
+                margin-top: 35px;
+            }
+
+            .nav{
+                margin-left: 5%;
+            }
+
+            .nav li a{
+                padding: 5px 6px;
+                font-size: smaller;
+            }
         }
 
         @media(width <= 740px){
@@ -91,13 +114,40 @@
                 height: 1400px;
             }
 
-            #menu-cabecera{
-                width: 20px;
-                justify-content: right;
-                margin-left: 350px;
+            #ciclos{
+                margin-left: -1%;
             }
 
+            #ciclos>ul{
+                margin-left: -1%;
+            }
+            .nav{
+                margin-left: 6%;
+            }
+            /*#menu-cabecera{
+                width: 20px;
+                justify-content: right;
+                margin-top: 100px;
+                margin-left: 250px;
+            }*/
 
+        }
+
+        @media(width <= 641px){
+            .nav{
+                padding: 2px 3px;
+                margin-left: 80px;
+                width: 100%;
+            }
+        }
+
+        @media(width <= 590px){
+            .nav{
+                margin-left: 115px;
+                font-size: smaller;
+                width: 100%;
+            }
+           
         }
 
         /*Modo Moviles*/
