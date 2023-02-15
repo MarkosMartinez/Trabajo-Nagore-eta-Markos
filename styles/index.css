@@ -2,7 +2,9 @@
 body{
 height: 1100px;
 background-size: 80px;
-background-color: rgba(215, 221, 25, 0.247);
+background-image: url(/assets/background.jpg);
+background-repeat: no-repeat;
+background-size: 2448px;
 
 
 }
@@ -120,7 +122,7 @@ right: 10%;
 /*Menu*/
 #menuMedi{
     transition: transform .2s;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.877);
     border: 1px solid #000;
     border-radius: 15px;
     position: absolute;
@@ -164,7 +166,6 @@ right: 10%;
     border: 1px black solid;
     border-radius: 15px;
     padding: 5px;
-    background-color: white;
     text-decoration: none;
     list-style:none;
     transition: .5s;
@@ -175,7 +176,6 @@ right: 10%;
     width: 500px;
     padding: 5px;
     border: 1px black solid;
-    background-color: white;
     justify-content: left;
     transition: .5s;
 
@@ -187,7 +187,8 @@ margin-left: 20px;
 
 #formacion p:hover, #ciclos ul:hover{
 
-    border: 2px black solid;
+    background-color: white;
+    border: 1.5px black solid;
     transform: scale(1.05);
 }
 
@@ -288,6 +289,7 @@ transition: 1.50s;
 
 #linksInfo:hover{
     transform: scale(1.1);
+    background-color: white;
 
 }
 
