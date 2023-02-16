@@ -160,7 +160,7 @@
         }
 
         /*Modo Moviles*/
-        @media(width <= 394px){
+        @media(width <= 400px){
             body{
                 height: 1900px;
             }
