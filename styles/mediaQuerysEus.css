@@ -39,6 +39,14 @@
             margin-left: -100px;
         }
 
+        body{
+            height: 1300px;
+        }
+
+        #menuMedi{
+            height: 1100px;
+        }
+
         #menu-cabecera{
             margin-top: 2%;
             position: relative;
@@ -73,23 +81,7 @@
         #menu-cabecera{
         margin-right: 100px;
         }
-        
-        #menuMedi{
-            justify-content: flex-start;
-            background-position: center;
-            height: 1000px;
-        }
 
-        }
-
-        @media(width < 895px){
-            body{
-                height: 1300px;
-            }
-
-            #menuMedi{
-                height: 1100px;
-            }
         }
     
         @media(width <= 810px){
@@ -102,7 +94,13 @@
                 background-color: white;
                 justify-content: left;
                 transition: .5s;
-            
+            }
+            body{
+                height: 1400px;
+            }
+    
+            #menuMedi{
+                height: 1200px;
             }
 
             #contenidoFormacion{
@@ -130,7 +128,7 @@
             }
 
             #menuMedi{
-                height: 1400px;
+                height: 1420px;
             }
 
             #ciclos{
@@ -143,12 +141,6 @@
             .nav{
                 margin-left: 6%;
             }
-            /*#menu-cabecera{
-                width: 20px;
-                justify-content: right;
-                margin-top: 100px;
-                margin-left: 250px;
-            }*/
 
         }
 
