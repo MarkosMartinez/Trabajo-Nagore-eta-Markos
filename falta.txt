@@ -1,11 +1,12 @@
 1.- Reordenar TODO (borrando DIVs e imagenes q no se utilizen)
-2.- Poner mas informacion (y las fotos de lanbide y asi). Hecho?
-3.- Pixeles para moviles = 394px (en el mio)
-4.- Hacerlo mediaQuery.
+3.- Pixeles para moviles = 394px (en el mio) AUMENTARLO!
 5.- Borrar/Arreglar imagenLogo.
 6.- Ampliar Widgets de Twitter, IG y contactos (aunq sea con la pantalla grande)
 
-
+1.- Arreglar el fondo de lambide
+2.- Arreglar todo en Euskera
+3.- Arreglar los widgets con el responsive
+4.- Cambiar el icono "Tramites" en Euskera
 
 ignora estudios
 
