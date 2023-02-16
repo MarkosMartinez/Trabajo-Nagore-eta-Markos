@@ -3,7 +3,6 @@
 5.- Borrar/Arreglar imagenLogo.
 6.- Ampliar Widgets de Twitter, IG y contactos (aunq sea con la pantalla grande)
 
-1.- Arreglar el fondo de lambide
 2.- Arreglar todo en Euskera
 3.- Arreglar los widgets con el responsive
 4.- Cambiar el icono "Tramites" en Euskera
