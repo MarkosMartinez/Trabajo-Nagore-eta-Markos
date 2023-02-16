@@ -17,8 +17,17 @@
         background-position: center;
     }
     
+    #imagenLogo{
+        margin-left: 80%;
+    }
+
     }
     
+    @media(width < 1450px){
+        #imagenLogo{
+            visibility: hidden;
+        }
+    }
     
     @media(width < 970px){
         body{
@@ -70,7 +79,7 @@
             background-position: center;
             height: 1000px;
         }
-        
+
         }
     
         @media(width <= 810px){

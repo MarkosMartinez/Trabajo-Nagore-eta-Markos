@@ -141,10 +141,10 @@ margin-left: 5px;
 @media(width < 910px){
 
     #menuTweeter:hover{
-        left: 60%
+        left: 60%;
     }
     #menuInstagram:hover{
-        left: 70%
+        left: 70%;
     }
     #menuContacto:hover{
         left: 69.8%;
@@ -152,23 +152,59 @@ margin-left: 5px;
 }
 @media(width <= 750px){
     #menuTweeter:hover{
-        left: 52%
+        left: 52%;
     }
     #menuInstagram:hover{
-        left: 65%
+        left: 65%;
     }
     #menuContacto:hover{
         left: 65%;
     }
 }
 
+@media(width <= 700px){
+    #menuTweeter:hover{
+        left: 48%;
+    }
+    #menuInstagram:hover{
+        left: 63%;
+    }
+    #menuContacto:hover{
+        left: 63%;
+    }
+}
+
+@media(width <= 600px){
+    #menuTweeter:hover{
+        left: 40%;
+    }
+    #menuInstagram:hover{
+        left: 56%;
+    }
+    #menuContacto:hover{
+        left: 56%;
+    }
+}
+
+@media(width <= 500px){
+    #menuTweeter:hover{
+        left: 28%;
+    }
+    #menuInstagram:hover{
+        left: 47%;
+    }
+    #menuContacto:hover{
+        left: 47%;
+    }
+}
+
 /*Modo Moviles*/
 @media(width <= 400px){
     #menuTweeter:hover{
-        left: 12%
+        left: 12%;
     }
     #menuInstagram:hover{
-        left: 35.5%
+        left: 35.5%;
     }
     #menuContacto:hover{
         left: 35%;
